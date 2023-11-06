@@ -1,0 +1,153 @@
+/* navbar section*/
+@media only screen and (max-width: 750px){
+    #header{
+        display: none;
+    }
+    #res_header{
+        display:flex !important;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 64px;
+    }
+}
+
+
+/* second section */
+@media only screen and (max-width: 850px){
+    #second_content{
+        flex-direction:column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+    }
+    #second_img{
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    .second{
+        padding: 0;
+    }
+    #second_detail{
+        padding: 32px 16px;
+    }
+    #second_detail h2{
+        font-size: 3rem;
+    }
+    #second_detail button{
+        border: 0;
+        width: 100%;
+        background-color: rgb(162, 157, 157);
+        cursor:pointer;
+    }
+}
+
+
+/* third section */
+@media only screen and (max-width:700px){
+    #third_section{
+        display: none;
+    }
+    #third_sec_res{
+        display: block !important;
+        width: 100vw;
+    }
+    #tcard1_res{
+        padding: 16px 16px 32px 16px;
+    }
+    #tcard1_res img{
+        width: 100%;
+    }
+    #tcard2_res{
+        padding: 32px 16px 32px 16px;
+    }
+    #tcard2_res img{
+        width: 100%;
+    }
+    #tcard3_res{
+        padding: 32px 16px 32px 16px;
+    }
+    #tcard3_res img{
+        width: 100%;
+    }
+    .tcard_res div{
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+    .tcard_res div h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .tcard_res div p{
+        margin-top: 4px;
+        margin-bottom: 12px
+    }
+    .tcard_res div a{
+        text-decoration: none;
+        color: rgb(35, 139, 218);
+    }
+}
+
+
+/* fourth section */
+@media only screen and (max-width:700px){
+    #fourth_section{
+        display: none;
+    }
+    #fourth_sec_res{
+        display: block !important;
+    }
+    #for_hr{
+        padding: 32px 16px 32px 16px;
+    }
+    #for_hr h2{
+        text-align: center;
+        color: rgb(58, 54, 54);
+        font-size: 2.2rem;
+    }
+    #fourth_sec_courses{
+        margin-top: 16px;
+    }
+    #fourth_sec_courses p{
+        background-color: rgb(228, 221, 221);
+        padding: 16px 16px 24px 16px;
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: rgb(58, 56, 56);
+    }
+    #fourth_sec_res hr{
+        background-color: rgb(241, 235, 235);
+    }
+}
+
+
+/* last section */
+@media only screen and (max-width:800px){
+    #last_section{
+        padding: 32px 0 24px 0;
+    }
+    #last_section #last_flex #last_right{
+        display: none;
+    }
+    #last_section #last_flex #last_left{
+        width: 100%;
+    }
+    #last_section #last_flex #last_left h3,#last_section #last_flex #last_left p{
+        display: none;
+    }
+    #last_section h2{
+        margin-bottom: 16px;
+    }
+}
+
+/* footer */
+@media only screen and (max-width:550px){
+    footer div{
+        display: none;
+    }
+    footer{
+        display: block;
+        padding: 16px;
+    }
+}
